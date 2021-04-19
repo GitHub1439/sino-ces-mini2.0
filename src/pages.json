@@ -1,0 +1,237 @@
+{
+	"pages": [
+        {
+			"path": "pages/auth-page/splash-page",
+			"style": {
+                "navigationStyle": "custom"
+            }
+		},
+        {
+			"path": "pages/home/index",
+			"style": {
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "navigationBarTextStyle": "white",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+		},
+        {
+			"path": "pages/cart/index",
+			"style": {
+                "navigationBarTitleText": "购物车",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black"
+			}
+		},
+        {
+			"path": "pages/person/index",
+			"style": {
+                "navigationStyle": "custom",
+                "navigationBarTitleText": "个人中心",
+                "disableScroll": false,
+                "navigationBarTextStyle": "white"
+            }
+		},
+        {
+            "path": "pages/auth-page/register",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true,
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/auth-page/join-consult",
+            "style": {
+                "navigationBarTitleText": "器械邦",
+                "navigationStyle": "custom",
+                "disableScroll": true,
+                "navigationBarTextStyle": "white"
+
+            }
+        },
+        {
+            "path": "pages/auth-page/auth-info",
+            "style": {
+                "navigationStyle": "custom",
+                "navigationBarTextStyle": "white"
+            }
+        }
+    ],
+    "subPackages": [
+        {
+            "root": "pages-home",
+            "pages": [
+                {
+                    "path": "search/index",
+                    "style": {
+                        "navigationBarTitleText": "搜索",
+                        "navigationBarBackgroundColor": "#ffffff",
+                        "navigationBarTextStyle": "black",
+                        "enablePullDownRefresh": true
+                    }
+                },
+                {
+                    "path": "activityDetail/index",
+                    "style": {
+                        "navigationStyle": "custom",
+                        "navigationBarTextStyle": "white"
+                    }
+                },
+
+                {
+                    "path": "detail/index",
+                    "style": {
+                        "navigationStyle": "custom",
+                        "navigationBarTextStyle": "white"
+                    }
+                },
+                {
+                    "path": "pay/index",
+                    "style": {
+                        "navigationStyle": "custom",
+                        "navigationBarTextStyle": "white",
+                        "app-plus": {// App特定样式
+                            "popGesture": "none"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages-cart",
+            "pages": [
+
+                {
+                    "path": "cart-order/index",
+                    "style": {
+                        "navigationBarTitleText": "填写订单",
+                        "navigationBarBackgroundColor": "#ffffff",
+                        "navigationBarTextStyle": "black"
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages-person",
+            "pages": [
+                {
+                    "path": "order/index",
+                    "style": {
+                        "navigationStyle": "custom"
+                    }
+                },
+                {
+                    "path": "order/returns-index",
+                    "style": {
+                        "navigationBarTitleText": "退换货"
+                    }
+                },
+                {
+                    "path": "order/write-off-index",
+                    "style": {
+                        "navigationBarTitleText": "核销处理"
+                    }
+                },
+                {
+                    "path": "gift/gift-manager-index",
+                    "style": {
+                        "navigationBarTitleText": "赠品管理"
+                    }
+                },
+                {
+                    "path": "faq/index",
+                    "style": {
+                        "navigationBarTitleText": "常见问题"
+                    }
+                },
+                {
+                    "path": "credit/index",
+                    "style": {
+                        "navigationBarTitleText": "授信管理",
+                        "navigationStyle": "custom",
+                        "backgroundColor": "#E40137",
+                        "backgroundColorTop": "#E40137",
+                        "navigationBarTextStyle": "white"
+                    }
+                },
+                {
+                    "path": "address/index",
+                    "style": {
+                        "navigationBarTitleText": "收货地址",
+                        "enablePullDownRefresh": true
+                    }
+                },
+                {
+                    "path": "address/add",
+                    "style": {
+                        "navigationBarTitleText": "新增地址"
+                    }
+                },
+                {
+                    "path": "address/edit",
+                    "style": {
+                        "navigationBarTitleText": "编辑地址"
+                    }
+                },
+                {
+                    "path": "collect/index",
+                    "style": {
+                        "navigationBarTitleText": "我的收藏"
+                    }
+                },
+                {
+                    "path": "invoice/index",
+                    "style": {
+                        "navigationBarTitleText": "开票申请"
+                    }
+                },
+                {
+                    "path": "invoice/apply",
+                    "style": {
+                        "navigationBarTitleText": "开票申请"
+                    }
+                },
+                {
+                    "path": "message/index",
+                    "style": {
+                        "navigationBarTitleText": "消息中心",
+                        "enablePullDownRefresh": true
+                    }
+                },
+                {
+                    "path": "order/order-detail",
+                    "style": {
+                        "navigationBarTitleText": "订单详情"
+                    }
+                },
+                {
+                    "path": "order/logistice-detail",
+                    "style": {
+                        "navigationBarTitleText": "物流详情"
+                    }
+                },
+                {
+                    "path": "order/red-bag",
+                    "style": {
+                        "navigationBarTitleText": "领红包"
+                    }
+                },
+                {
+                    "path": "info/person-info",
+                    "style": {
+                        "navigationStyle": "custom",
+                        "navigationBarTextStyle": "white"
+                    }
+                }
+            ]
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F7F8FA"
+	}
+}
